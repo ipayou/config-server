@@ -1,2 +1,2 @@
-# config-server
-Centralised Configuration Server
+# configuration-server
+# Centralised Configuration Server for IPaYou project
