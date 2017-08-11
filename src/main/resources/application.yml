@@ -1,0 +1,21 @@
+server:
+  port: 8888
+management:
+  port: 8083
+  security:
+    enabled: false
+spring:
+  cloud:
+    config:
+      server:
+        encrypt:
+          enabled: false
+        git:
+          uri: https://github.com/xApiDev/config-repo
+          searchPaths: eureka, account, settings, payment
+          username: burgazov
+          password: fero100367
+          
+# http://localhost:8888/config-server/key
+# http://localhost:8888/config-server/loggers/master - GET
+# http://localhost:8888/springboot/hello - GET
